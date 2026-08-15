@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>避雷MINE · 求职防坑图鉴</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family:"Microsoft YaHei","PingFang SC",sans-serif;
+    background:#f5f5f0; color:#1f2328; min-height:100vh;
+    background-image: radial-gradient(rgba(0,0,0,.05) 1px, transparent 1px);
+    background-size: 18px 18px;
+  }
+  .wrap { max-width:760px; margin:0 auto; padding:60px 24px 80px; text-align:center; }
+  h1 {
+    font-size:44px; font-weight:900; letter-spacing:3px; color:#1a1a1a;
+    text-shadow: 4px 4px 0 #ffd23f, 7px 7px 0 rgba(0,0,0,.12);
+  }
+  h1 .mine { color:#ff2442; }
+  .sub { font-size:16px; color:#555; letter-spacing:2px; margin:16px 0 8px; }
+  .tag { font-size:13px; color:#8a8a8a; letter-spacing:1px; margin-bottom:48px; }
+
+  .download-btn {
+    display:inline-block;
+    background:#ff2442; color:#fff; text-decoration:none;
+    border:none; border-radius:0;
+    border-top:4px solid #ff7a8f; border-left:4px solid #ff7a8f;
+    border-bottom:4px solid #a01028; border-right:4px solid #a01028;
+    padding:22px 64px; font-size:24px; font-weight:900; letter-spacing:4px;
+    cursor:pointer; margin-bottom:14px;
+  }
+  .download-btn:hover { filter:brightness(1.08); }
+  .download-btn:active {
+    border-top:4px solid #a01028; border-left:4px solid #a01028;
+    border-bottom:4px solid #ff7a8f; border-right:4px solid #ff7a8f;
+    transform: translate(2px,2px);
+  }
+  .hint { font-size:12px; color:#8a8a8a; margin-bottom:48px; }
+
+  .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:14px; text-align:left; margin-bottom:48px; }
+  .feat {
+    background:#fff; border:2px solid #1a1a1a; border-radius:0;
+    box-shadow: 4px 4px 0 rgba(0,0,0,.14);
+    padding:16px;
+  }
+  .feat b { display:block; font-size:15px; margin-bottom:6px; }
+  .feat b::before { content:'⚑ '; color:#ff2442; }
+  .feat span { font-size:12px; color:#3d4147; line-height:1.7; }
+
+  .note {
+    text-align:left; background:#fff; border:2px dashed #d8d8d0;
+    padding:14px 18px; font-size:12px; color:#8a8a8a; line-height:1.9;
+  }
+  .ver { margin-top:24px; font-size:11px; color:#b0b0b0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>⚑ 避雷<span class="mine">MINE</span></h1>
+  <div class="sub">求职防坑图鉴</div>
+  <div class="tag">面试前先扫一遍 · 单文件 · 免安装 · 数据本地存储</div>
+
+  <a class="download-btn" href="https://github.com/foxsilly400-cmyk/bilei-mine/releases/latest/download/MINE.zip">立 即 下 载</a>
+  <div class="hint">点上面按钮，zip 包约 25KB，解压后双击「求职避雷面板.html」即可使用</div>
+
+  <div class="features">
+    <div class="feat"><b>单文件即用</b><span>浏览器双击打开，无需安装、注册、联网，手机也能看</span></div>
+    <div class="feat"><b>公司速查</b><span>收到面试邀请先搜一下：公司名、关键词、标签都能查</span></div>
+    <div class="feat"><b>自己扩充</b><span>看到避雷信息？粘给任意 AI 按提示词整理，粘贴回面板自动入库</span></div>
+    <div class="feat"><b>数据安全</b><span>所有数据只存在你自己的浏览器里，不上传任何服务器</span></div>
+  </div>
+
+  <div class="note">
+    <b>免责声明：</b>本产品数据整理自公开网络的求职者反馈，仅供参考，不构成对任何公司的事实认定。
+    公司情况会变化，请结合面试实际情况判断。被点名的公司如认为信息有误，可联系提供方核实删除。
+  </div>
+  <div class="ver">避雷MINE v1.0.0 · 2026-08-15</div>
+</div>
+</body>
+</html>
